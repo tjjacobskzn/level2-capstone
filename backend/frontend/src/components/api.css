@@ -1,0 +1,76 @@
+body {
+    padding: 2%;
+}
+
+.mainBody {
+    width: fit-content;
+    border-left: solid 10px blue;
+    border-top: solid 10px;
+    border-right: solid 10px bisque;
+    border-bottom: solid 10px green;
+    padding: 2%;
+    font-family: cursive;
+    margin-left: 20%;
+}
+
+.formName {
+    display: grid;
+    grid-template-columns: 25% 40%;
+    padding-bottom: 3%;
+}
+
+.nameLabel {
+    font-weight: 500;
+}
+
+.formArtist {
+    display: grid;
+    grid-template-columns: 25% 40%;
+    padding-bottom: 3%;
+}
+
+.artistLabel {
+    font-weight: 500;
+}
+
+.formMediaType {
+    padding-bottom: 4%;
+    font-weight: 500;
+    display: grid;
+    grid-template-columns: 35% 30%;
+}
+
+.searchBtnDiv {
+    text-align: end;
+    margin-right: 10%;
+}
+
+.searchResultsHeading {
+    font-weight: 1000;
+    margin-bottom: -1%;
+
+}
+
+.mediaItem {
+    padding: 1%;
+    background: aliceblue;
+    width: fit-content;
+    border-radius: 10px;
+}
+
+.mediaItem:hover {
+    background-color: bisque;
+}
+
+.mediaInfo {
+    font-weight: 600;
+}
+
+.favouritesHeading {
+    font-weight: 1000;
+    margin-bottom: -1%;
+}
+
+.favMediaInfo {
+    font-weight: 600;
+}

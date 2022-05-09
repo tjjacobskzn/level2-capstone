@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="mainBody"
+>
+  <div>
+    <form
+      onSubmit={[Function]}
+    >
+      <div
+        className="formName"
+      >
+        <label
+          className="nameLabel"
+        >
+          Name : 
+        </label>
+        <input
+          name="songName"
+          onChange={[Function]}
+          required={true}
+        />
+      </div>
+      <div
+        className="formArtist"
+      >
+        <label
+          className="artistLabel"
+        >
+          Artist : 
+        </label>
+        <input
+          className="artistInput"
+          name="artist"
+          onChange={[Function]}
+          required={true}
+        />
+      </div>
+      <div
+        className="formMediaType"
+      >
+        <label>
+          Media type : 
+        </label>
+        <select
+          onChange={[Function]}
+        >
+          <option
+            value="song"
+          >
+            Music
+          </option>
+          <option
+            value="podcast"
+          >
+            Podcast
+          </option>
+        </select>
+      </div>
+      <div
+        className="searchBtnDiv"
+      >
+        <input
+          type="submit"
+          value="Search"
+        />
+      </div>
+    </form>
+  </div>
+  <hr />
+  <div>
+    <div
+      className="searchResults"
+      style={
+        Object {
+          "visibility": "hidden",
+        }
+      }
+    >
+      <div>
+        <h3
+          className="searchResultsHeading"
+        >
+          Available data
+        </h3>
+         
+        <p
+          className="mediaInfo"
+        >
+          Click items to add them to favourites!
+        </p>
+      </div>
+      <hr />
+      <div
+        className="media"
+      >
+        <hr />
+      </div>
+    </div>
+    <div>
+      <div
+        className="favourites"
+        style={
+          Object {
+            "visibility": "hidden",
+          }
+        }
+      >
+        <hr />
+        <div>
+          <h3
+            className="favouritesHeading"
+          >
+            My favourites
+          </h3>
+           
+          <p
+            className="mediaInfo"
+          >
+            Click items to delete them!
+          </p>
+        </div>
+        <hr />
+        <div
+          className="favMedia"
+        />
+        <hr />
+      </div>
+    </div>
+  </div>
+</div>
+`;
